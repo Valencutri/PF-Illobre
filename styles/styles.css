@@ -1,0 +1,258 @@
+#header {
+  height: 60px;
+  background-image: linear-gradient(black, red);
+  border: 2px solid black;
+  font-family: "Holtwood One SC";
+}
+
+.navbar__logo {
+  display: inline-block;
+  width: 75px;
+  margin-right: 10px;
+}
+
+body {
+  background-color: rgb(99, 99, 99);
+  font-size: 14px;
+  background-size: auto;
+}
+
+h3 {
+  font-family: "Holtwood One SC";
+}
+
+#main-inicio img {
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+
+.navbar-nav .nav-link:hover {
+  background-image: linear-gradient(rgba(77, 1, 255, 0.74), rgb(38, 0, 255));
+  transition: transform 0.3s ease, background-image 0.3s ease, color 0.3s ease;
+  color: #4400ff;
+  box-shadow: 2px 4px;
+  border-block-start-color: black;
+  border-radius: 4px;
+  transform: scaleX(1.25) scaleY(1.25);
+}
+
+#navbar {
+  font-family: "Holtwood One SC";
+}
+
+.navbar-brand {
+  transition: color 1s, transform 1s;
+}
+.navbar-brand:hover {
+  color: #ff6347;
+  animation: scaleUp 0.3s ease-in-out;
+}
+
+footer {
+  background-color: #343a40;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(255, 0, 0);
+  align-items: center;
+  padding: 20px 0;
+  border: 3px solid black;
+  margin-top: auto;
+}
+footer .text-white {
+  color: #ffffff;
+}
+footer .navs {
+  background-color: #020202;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#navbar {
+  font-family: "Holtwood One SC";
+}
+
+.navbar-brand {
+  transition: color 1s, transform 1s;
+}
+.navbar-brand:hover {
+  color: #ff6347;
+  animation: scaleUp 0.3s ease-in-out;
+}
+
+footer {
+  background-image: radial-gradient(red, black);
+  color: #ffffff;
+  padding: 20px 0;
+  border-top: 3px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .footer-paginas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.div-n {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navs {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.navs li {
+  margin: 0 10px;
+}
+.navs a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+.navs a:hover {
+  background-image: linear-gradient(rgba(77, 1, 255, 0.979), rgb(55, 0, 255));
+  box-shadow: 2px;
+  border-radius: black;
+  color: #ff0505;
+  border-radius: 4px;
+  padding: 5px 10px;
+}
+
+@keyframes scaleUp {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
+.faq-titulo {
+  font-family: "Holtwood One SC", sans-serif;
+  font-size: 20px;
+}
+
+.formulario-contacto {
+  border: 3px solid red;
+  border-radius: 10px;
+  background-color: #f8f9fa;
+  max-width: 600px;
+  margin: auto;
+}
+.formulario-contacto input,
+.formulario-contacto textarea,
+.formulario-contacto button {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+ul, li {
+  list-style: none;
+  display: inline-block;
+}
+
+label {
+  font-family: "Arial";
+  font-weight: 700;
+  margin-left: 20px;
+}
+
+form {
+  background: #ffffff;
+  border: 4px solid #000000;
+  border-radius: 30px;
+  padding: 20px;
+  margin-top: 300px;
+  margin-left: 360px;
+  width: 100%;
+  max-width: 580px;
+  margin-top: 20px;
+}
+
+.cuadro-texto {
+  border: 2px solid #ff0404;
+  color: #ff0000;
+  margin-top: 600px;
+}
+
+.cuadro-texto2 {
+  font-size: 14px;
+  padding-left: 120px;
+  margin-top: -40px;
+}
+
+.cuadro-texto,
+.cuadro-mixto,
+.cuadro-canon {
+  display: block;
+  padding: 10px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 10px;
+  width: 100px;
+}
+
+.cuadro-canon {
+  border: 2px solid #1eff00;
+  color: #00ff22;
+  margin-top: 30px;
+}
+
+.cuadro-canon2 {
+  font-size: 14px;
+  padding-left: 120px;
+  margin-top: -40px;
+}
+
+.cuadro-mixto {
+  border: 2px solid hsl(226, 100%, 50%);
+  color: hsl(249, 100%, 50%);
+  margin-top: 30px;
+}
+
+.cuadro-mixto2 {
+  font-size: 14px;
+  padding-left: 120px;
+  margin-top: -40px;
+}
+
+.p-class {
+  color: #33ff00;
+  font-style: Regular 400;
+}
+
+.p-class2 {
+  color: #ff0101;
+  font-style: Regular 400;
+}
+
+.p-class3 {
+  color: #000dff;
+  font-style: Regular 400;
+}
+
+ul, li {
+  list-style: none;
+  display: inline-block;
+}
+
+/*# sourceMappingURL=styles.css.map */

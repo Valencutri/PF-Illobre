@@ -1,0 +1,52 @@
+#header {
+  height: 60px;
+  background-image: linear-gradient(black, red);
+  border: 2px solid black;
+  font-family: "Holtwood One SC";
+}
+
+.navbar__logo {
+  display: inline-block;
+  width: 75px;
+  margin-right: 10px;
+}
+
+body {
+  background-color: rgb(99, 99, 99);
+  font-size: 14px;
+  background-size: auto;
+}
+
+h3 {
+  font-family: "Holtwood One SC";
+}
+
+#main-inicio img {
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+
+.navbar-nav .nav-link:hover {
+  background-image: linear-gradient(rgba(77, 1, 255, 0.74), rgb(38, 0, 255));
+  transition: transform 0.3s ease, background-image 0.3s ease, color 0.3s ease;
+  color: #4400ff;
+  box-shadow: 2px 4px;
+  border-block-start-color: black;
+  border-radius: 4px;
+  transform: scaleX(1.25) scaleY(1.25);
+  
+}
+
+#navbar {
+  font-family: "Holtwood One SC";
+}
+
+.navbar-brand {
+  transition: color 1s, transform 1s;
+
+  &:hover {
+    color: #ff6347;
+    animation: scaleUp 0.3s ease-in-out;
+  }
+}

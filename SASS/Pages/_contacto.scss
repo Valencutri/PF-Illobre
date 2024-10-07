@@ -1,0 +1,39 @@
+.formulario-contacto {
+    input,
+    textarea,
+    button {
+      border: 2px solid black;
+      border-radius: 5px;
+      padding: 10px;
+      margin-top: 10px;
+    }
+  
+    border: 3px solid red;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  ul, li {
+    list-style: none;
+    display: inline-block;
+  }
+  
+  label {
+    font-family: "Arial";
+    font-weight: 700;
+    margin-left: 20px;
+  }
+  
+  form {
+    background: #ffffff;
+    border: 4px solid #000000;
+    border-radius: 30px;
+    padding: 20px;
+    margin-top: 300px;
+    margin-left: 360px;
+    width: 100%;
+    max-width: 580px;
+    margin-top: 20px;
+  }
