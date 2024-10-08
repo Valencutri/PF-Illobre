@@ -14,11 +14,11 @@ footer {
       flex-wrap: wrap; 
   }
 
-// asd
+
   .navs { 
-      padding: 0;
+      padding: 5px;
       margin: 0;
-    
+      background-color: black;
       list-style: none;
 
       li {
@@ -27,11 +27,14 @@ footer {
 
       a {
           color: #ffffff;
+          font-family:"Holtwood One SC" ;
           text-decoration: none;
           padding: 10px 15px;
-
+       
           &:hover {
-              background-image: linear-gradient(rgba(0, 0, 0, 0.979), rgb(0, 0, 0));
+            background-image: linear-gradient(rgba(77, 1, 255, 0.74), rgb(38, 0, 255));
+         transition: transform 0.3s ease, background-image 0.3s ease, color 0.3s ease;
+          color: #4400ff;
               box-shadow: 2px;
               border-radius: 4px;
               color: #fcfbfb;
