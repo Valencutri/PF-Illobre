@@ -50,100 +50,40 @@ h3 {
 }
 
 footer {
-  background-color: #343a40;
-  display: flex;
-  justify-content: space-around;
-  background-color: rgb(255, 0, 0);
-  align-items: center;
-  padding: 20px 0;
-  border: 3px solid black;
-  margin-top: auto;
-}
-footer .text-white {
-  color: #ffffff;
-}
-footer .navs {
-  background-color: #020202;
-  padding: 10px;
-  border-radius: 5px;
-}
-
-#navbar {
-  font-family: "Holtwood One SC";
-}
-
-.navbar-brand {
-  transition: color 1s, transform 1s;
-}
-.navbar-brand:hover {
-  color: #ff6347;
-  animation: scaleUp 0.3s ease-in-out;
-}
-
-footer {
   background-image: radial-gradient(red, black);
   color: #ffffff;
-  padding: 20px 0;
+  padding: 10px 0;
   border-top: 3px solid black;
   display: flex;
-  justify-content: center;
+  flex-direction: row;
   align-items: center;
 }
 footer .footer-paginas {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-around; /* Distribuye columnas */
+  width: 100%;
   flex-wrap: wrap;
-  width: 100%;
 }
-
-.row {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-
-.div-n {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.navs {
-  display: flex;
-  flex-direction: row;
+footer .navs {
   padding: 0;
   margin: 0;
+  background-color: black;
   list-style: none;
 }
-.navs li {
-  margin: 0 10px;
+footer .navs li {
+  margin: 5px 0;
 }
-.navs a {
+footer .navs a {
   color: #ffffff;
   text-decoration: none;
   padding: 10px 15px;
 }
-.navs a:hover {
-  background-image: linear-gradient(rgba(77, 1, 255, 0.979), rgb(55, 0, 255));
+footer .navs a:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.979), rgb(0, 0, 0));
   box-shadow: 2px;
-  border-radius: black;
-  color: #ff0505;
   border-radius: 4px;
+  color: #fcfbfb;
   padding: 5px 10px;
-}
-
-@keyframes scaleUp {
-  0% {
-    transform: scale(1);
-  }
-  100% {
-    transform: scale(1.2);
-  }
-}
-.faq-titulo {
-  font-family: "Holtwood One SC", sans-serif;
-  font-size: 20px;
 }
 
 .formulario-contacto {
